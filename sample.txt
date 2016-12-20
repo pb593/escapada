@@ -1,0 +1,805 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "3YwqStY5pVlEOyNVN0PetY",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "CDG",
+     "city": "PAR",
+     "name": "Paris Charles de Gaulle"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LCY",
+     "city": "LON",
+     "name": "London City Airport"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LHR",
+     "city": "LON",
+     "name": "London Heathrow"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "ORY",
+     "city": "PAR",
+     "name": "Paris Orly"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "PAR",
+     "name": "Paris"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "318",
+     "name": "Airbus A318"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "319",
+     "name": "Airbus A319"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "AR8",
+     "name": "Avro RJ85"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "IZ_001",
+     "name": "French Air Passenger Solidarity Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "QX_001",
+     "name": "France Passenger Service Charge International"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB_001",
+     "name": "United Kingdom Passenger Service Charge Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "FR_007",
+     "name": "French Airport Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "GB_001",
+     "name": "United Kingdom Air Passenger Duty Apd"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "FR_001",
+     "name": "France Civil Aviation Tax Domestic And International"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AF",
+     "name": "Air France"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "WX",
+     "name": "Cityjet"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "GBP87.60",
+    "id": "3QvXJarrLb8OyNXipgBFWG002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 90,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 90,
+        "flight": {
+         "carrier": "WX",
+         "number": "27"
+        },
+        "id": "GlocILS+hiCJ-fjT",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 2,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LQZ3TwPjw-k1uNtj",
+          "aircraft": "AR8",
+          "arrivalTime": "2017-03-10T20:40+01:00",
+          "departureTime": "2017-03-10T18:10+00:00",
+          "origin": "LCY",
+          "destination": "ORY",
+          "destinationTerminal": "W",
+          "duration": 90,
+          "mileage": 217
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 80,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 80,
+        "flight": {
+         "carrier": "WX",
+         "number": "26"
+        },
+        "id": "G3sFxcnDnKWv8T5g",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 1,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LS-OXACLnQP2aWYq",
+          "aircraft": "AR8",
+          "arrivalTime": "2017-03-12T17:15+00:00",
+          "departureTime": "2017-03-12T16:55+01:00",
+          "origin": "ORY",
+          "destination": "LCY",
+          "originTerminal": "W",
+          "duration": 80,
+          "mileage": 217
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AhINu0QYPM+R7azkixvJZR84AMQs8gUmBEX5WZcq9d2c",
+        "carrier": "WX",
+        "origin": "LON",
+        "destination": "PAR",
+        "basisCode": "V9SRGB"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AhINu0QYPM+R7azkixvJZR84AMQs8gUmBEX5WZcq9d2c",
+        "carrier": "WX",
+        "origin": "PAR",
+        "destination": "LON",
+        "basisCode": "V9SRGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhINu0QYPM+R7azkixvJZR84AMQs8gUmBEX5WZcq9d2c",
+        "segmentId": "GlocILS+hiCJ-fjT"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AhINu0QYPM+R7azkixvJZR84AMQs8gUmBEX5WZcq9d2c",
+        "segmentId": "G3sFxcnDnKWv8T5g"
+       }
+      ],
+      "baseFareTotal": "GBP9.00",
+      "saleFareTotal": "GBP9.00",
+      "saleTaxTotal": "GBP78.60",
+      "saleTotal": "GBP87.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "GBP13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "GBP40.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QX",
+        "country": "FR",
+        "salePrice": "GBP9.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP3.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_007",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP10.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IZ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "IZ",
+        "country": "FR",
+        "salePrice": "GBP0.90"
+       }
+      ],
+      "fareCalculation": "LON WX PAR 5.65V9SRGB WX LON 5.65V9SRGB NUC 11.30 END ROE 0.79517 FARE GBP 9.00 XT 13.00GB 40.70UB 14.40FR 0.90IZ 9.60QX",
+      "latestTicketingTime": "2017-03-10T13:09-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "GBP93.60",
+    "id": "3QvXJarrLb8OyNXipgBFWG001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "AF",
+         "number": "1281"
+        },
+        "id": "G78aVeI6-3VLiT67",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LD-7WIrNz8Xn2RBU",
+          "aircraft": "319",
+          "arrivalTime": "2017-03-10T19:50+01:00",
+          "departureTime": "2017-03-10T17:40+00:00",
+          "origin": "LHR",
+          "destination": "CDG",
+          "originTerminal": "4",
+          "destinationTerminal": "2E",
+          "duration": 70,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "AF",
+         "number": "1380"
+        },
+        "id": "GA6Ybt70aOM9SSVg",
+        "cabin": "COACH",
+        "bookingCode": "X",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L3vh8WFMOUMtgAGX",
+          "aircraft": "320",
+          "arrivalTime": "2017-03-12T20:25+00:00",
+          "departureTime": "2017-03-12T20:10+01:00",
+          "origin": "CDG",
+          "destination": "LHR",
+          "originTerminal": "2E",
+          "destinationTerminal": "4",
+          "duration": 75,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "carrier": "AF",
+        "origin": "LON",
+        "destination": "PAR",
+        "basisCode": "RRD0GB9"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AE+M2vYECl7XtqUx7mYxxO+0N+K6Igg0Ssq/7GUCtwEI",
+        "carrier": "AF",
+        "origin": "PAR",
+        "destination": "LON",
+        "basisCode": "XRD0GB9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "segmentId": "G78aVeI6-3VLiT67"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AE+M2vYECl7XtqUx7mYxxO+0N+K6Igg0Ssq/7GUCtwEI",
+        "segmentId": "GA6Ybt70aOM9SSVg"
+       }
+      ],
+      "baseFareTotal": "GBP30.00",
+      "saleFareTotal": "GBP30.00",
+      "saleTaxTotal": "GBP63.60",
+      "saleTotal": "GBP93.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "GBP24.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "GBP13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QX",
+        "country": "FR",
+        "salePrice": "GBP10.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IZ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "IZ",
+        "country": "FR",
+        "salePrice": "GBP0.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_007",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP10.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP3.70"
+       }
+      ],
+      "fareCalculation": "LON AF PAR 29.55RRD0GB9 AF LON 8.17XRD0GB9 NUC 37.72 END ROE 0.79517 FARE GBP 30.00 XT 13.00GB 24.70UB 14.40FR 0.90IZ 10.60QX",
+      "latestTicketingTime": "2016-12-22T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "GBP98.60",
+    "id": "3QvXJarrLb8OyNXipgBFWG004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "AF",
+         "number": "1281"
+        },
+        "id": "G78aVeI6-3VLiT67",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LD-7WIrNz8Xn2RBU",
+          "aircraft": "319",
+          "arrivalTime": "2017-03-10T19:50+01:00",
+          "departureTime": "2017-03-10T17:40+00:00",
+          "origin": "LHR",
+          "destination": "CDG",
+          "originTerminal": "4",
+          "destinationTerminal": "2E",
+          "duration": 70,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "AF",
+         "number": "1180"
+        },
+        "id": "GtPI9RqWeum8ZhbK",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LBGhJHBVoik-Lmzr",
+          "aircraft": "319",
+          "arrivalTime": "2017-03-12T19:15+00:00",
+          "departureTime": "2017-03-12T19:00+01:00",
+          "origin": "CDG",
+          "destination": "LHR",
+          "originTerminal": "2E",
+          "destinationTerminal": "4",
+          "duration": 75,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "carrier": "AF",
+        "origin": "LON",
+        "destination": "PAR",
+        "basisCode": "RRD0GB9"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYTwFyLYsR1WC8SHob8vLMZttjU6AFwUCzjsdPd0Oe9w",
+        "carrier": "AF",
+        "origin": "PAR",
+        "destination": "LON",
+        "basisCode": "VRD0GB9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYTwFyLYsR1WC8SHob8vLMZttjU6AFwUCzjsdPd0Oe9w",
+        "segmentId": "GtPI9RqWeum8ZhbK"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "segmentId": "G78aVeI6-3VLiT67"
+       }
+      ],
+      "baseFareTotal": "GBP35.00",
+      "saleFareTotal": "GBP35.00",
+      "saleTaxTotal": "GBP63.60",
+      "saleTotal": "GBP98.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "GBP24.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "GBP13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QX",
+        "country": "FR",
+        "salePrice": "GBP10.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IZ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "IZ",
+        "country": "FR",
+        "salePrice": "GBP0.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_007",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP10.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP3.70"
+       }
+      ],
+      "fareCalculation": "LON AF PAR 29.55RRD0GB9 AF LON 15.09VRD0GB9 NUC 44.64 END ROE 0.79517 FARE GBP 35.00 XT 13.00GB 24.70UB 14.40FR 0.90IZ 10.60QX",
+      "latestTicketingTime": "2016-12-22T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "GBP98.60",
+    "id": "3QvXJarrLb8OyNXipgBFWG003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 70,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 70,
+        "flight": {
+         "carrier": "AF",
+         "number": "1281"
+        },
+        "id": "G78aVeI6-3VLiT67",
+        "cabin": "COACH",
+        "bookingCode": "R",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LD-7WIrNz8Xn2RBU",
+          "aircraft": "319",
+          "arrivalTime": "2017-03-10T19:50+01:00",
+          "departureTime": "2017-03-10T17:40+00:00",
+          "origin": "LHR",
+          "destination": "CDG",
+          "originTerminal": "4",
+          "destinationTerminal": "2E",
+          "duration": 70,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "AF",
+         "number": "1080"
+        },
+        "id": "G3Yo4S4dqGjP-KsW",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L34zcpp3+tXoXncn",
+          "aircraft": "318",
+          "arrivalTime": "2017-03-12T18:20+00:00",
+          "departureTime": "2017-03-12T18:05+01:00",
+          "origin": "CDG",
+          "destination": "LHR",
+          "originTerminal": "2E",
+          "destinationTerminal": "4",
+          "duration": 75,
+          "mileage": 216,
+          "meal": "Snack or Brunch"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "carrier": "AF",
+        "origin": "LON",
+        "destination": "PAR",
+        "basisCode": "RRD0GB9"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AYTwFyLYsR1WC8SHob8vLMZttjU6AFwUCzjsdPd0Oe9w",
+        "carrier": "AF",
+        "origin": "PAR",
+        "destination": "LON",
+        "basisCode": "VRD0GB9"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASfqGeEYg/yVyGs+9B/oMphrguZ/t5ekXvPhfFORtReE",
+        "segmentId": "G78aVeI6-3VLiT67"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AYTwFyLYsR1WC8SHob8vLMZttjU6AFwUCzjsdPd0Oe9w",
+        "segmentId": "G3Yo4S4dqGjP-KsW"
+       }
+      ],
+      "baseFareTotal": "GBP35.00",
+      "saleFareTotal": "GBP35.00",
+      "saleTaxTotal": "GBP63.60",
+      "saleTotal": "GBP98.60",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "GBP24.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "GBP13.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "QX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "QX",
+        "country": "FR",
+        "salePrice": "GBP10.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "IZ_001",
+        "chargeType": "GOVERNMENT",
+        "code": "IZ",
+        "country": "FR",
+        "salePrice": "GBP0.90"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_007",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP10.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "FR_001",
+        "chargeType": "GOVERNMENT",
+        "code": "FR",
+        "country": "FR",
+        "salePrice": "GBP3.70"
+       }
+      ],
+      "fareCalculation": "LON AF PAR 29.55RRD0GB9 AF LON 15.09VRD0GB9 NUC 44.64 END ROE 0.79517 FARE GBP 35.00 XT 13.00GB 24.70UB 14.40FR 0.90IZ 10.60QX",
+      "latestTicketingTime": "2016-12-22T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
+
